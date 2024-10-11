@@ -1,0 +1,20 @@
+// Calculate the area of a rectangle 
+#include <stdio.h>
+
+int main ()
+{
+  float l,w; // length and width of a rectangle
+  float s;   // area of a rectangle
+  
+  printf("\nCalculate the area of a rectangle\n");
+  printf("enter the initial data:\n");
+  printf("Length (см.) -> ");
+  scanf("%f", &l);
+  printf("Width (см.) -> ");
+  scanf("%f", &w);
+   s = l * w;
+  printf("Area of a parallelogram: %10.2f sq.cm.\n", s);
+  printf("\n\nTo finish press <Enter>");
+  
+}
+  
